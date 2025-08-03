@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

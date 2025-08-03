@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "menus",
   "info": {
     "singularName": "menu",
@@ -11,11 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "MenuName": {
       "type": "string"
     },
-    "Link": {
-      "type": "string"
+    "MenuGroup": {
+      "type": "component",
+      "component": "shared.menu",
+      "repeatable": true
     }
   }
 }
