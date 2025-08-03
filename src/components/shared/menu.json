@@ -11,6 +11,10 @@
     },
     "Link": {
       "type": "string"
+    },
+    "Enabled": {
+      "type": "boolean",
+      "default": true
     }
   },
   "config": {}
