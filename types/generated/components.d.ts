@@ -18,9 +18,9 @@ export interface SharedMenu extends Struct.ComponentSchema {
     icon: 'server';
   };
   attributes: {
-    Enabled: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
-    Link: Schema.Attribute.String;
-    Name: Schema.Attribute.String;
+    enabled: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    link: Schema.Attribute.String;
+    name: Schema.Attribute.String;
   };
 }
 

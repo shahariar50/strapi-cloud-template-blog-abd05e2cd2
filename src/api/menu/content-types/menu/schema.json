@@ -11,10 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "MenuName": {
+    "name": {
       "type": "string"
     },
-    "MenuGroup": {
+    "childrens": {
       "type": "component",
       "component": "shared.menu",
       "repeatable": true
